@@ -65,6 +65,17 @@ import { Icon } from '@iconify/react'
 
 想搭建一个像小站一样的站点来吗？很容易，我教你吧~
 
+:::tip  快速安装
+
+```bash
+git clone https://github.com/guofusheng007/guo.git
+cd guo
+yarn
+yarn start
+```
+:::
+
+
 <p>
   <Icon icon="bi:tencent-qq" width="24" heigth="24" />{' '}
   QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=10280279&site=qq&menu=yes">10280279</a>

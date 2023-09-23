@@ -16,6 +16,18 @@ title: 本站点制作过程(d8s)
   - Docusaurus 1 是纯粹的文档站点生成器。
   - Docusaurus 2 则是保留了 1 易于上手、文档版本化的优点，可用于快速创建常见的内容驱动型的网站，像文档、博客、产品落地页、营销页等。
 
+:::tip  快速安装
+
+```bash
+git clone https://github.com/guofusheng007/guo.git
+cd guo
+yarn
+yarn start
+```
+:::
+
+
+
 ## 基本配置
 ### 基本安装
 ```bash
