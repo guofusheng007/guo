@@ -744,6 +744,11 @@ yarn deploy --skip-build
 http://guo-fs.com
 
 
-## 完整配置文件
+## 快速安装
+```sh
+git clone https://github.com/guofusheng007/guo.git
+cd guo
+yarn
+yarn start
 
 
