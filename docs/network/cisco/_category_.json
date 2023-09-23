@@ -1,0 +1,10 @@
+{
+  "label": "Cisco",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Cisco"
+  }
+}

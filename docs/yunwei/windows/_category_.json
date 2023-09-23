@@ -1,0 +1,10 @@
+{
+  "label": "Windows",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Windows."
+  }
+}

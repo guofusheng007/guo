@@ -1,0 +1,198 @@
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --docusaurus-highlighted-code-line-bg: rgba(185, 176, 179, 0)
+
+  --ifm-font-family-base: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', consolas, sfmono-regular, menlo, monaco, 'Liberation Mono', monospace;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+
+
+  //侧边菜单
+  --ifm-menu-color: #0d203a;    //字体颜色
+
+  //代码块
+  --ifm-code-font-size: 90%;   //代码块中的字体大小
+
+
+  //test
+
+
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* 进度条配置 */
+.mypro{
+  background:rgb(255, 255, 255);
+  border:0px solid rgb(139, 10, 245);
+  border:0px solid #000;
+  width:240px;
+  height:15px;
+  -webkit-appearance: none;
+}
+::-ms-fill{
+  background:deeppink;
+}
+::-moz-progress-bar{
+  background:deeppink;
+}
+::-webkit-progress-bar{
+  background:rgb(219, 216, 211);
+}
+::-webkit-progress-value{
+  background:rgb(97, 211, 163);
+}
+
+//页脚配置
+.footer--dark {
+  //--ifm-footer-background-color: var(--ifm-navbar-background-color);
+  //--ifm-footer-color: var(---ifm-color-primary-dark);
+  //--ifm-footer-link-color: var(--ifm-color-primary-dark);
+  //--ifm-footer-title-color: var(--ifm-color-primary-dark);
+}
+
+
+//导航菜单配置
+.navbar {
+  //background-color: transparent;
+  //background-color: var(--ifm-color-primary-darker);   //导航颜色
+  //background-color: var(--ifm-navbar-background-color);
+  box-shadow: 0 4px 28px rgb(0 0 0 / 10%);   //导航下面的阴影条配置
+  //box-shadow: var(--ifm-navbar-shadow);
+
+  // background-image: radial-gradient(transparent 1px, #fff 1px);
+  // background-size: 3px 3px;
+  // backdrop-filter: saturate(50%) blur(4px);
+
+  .navbar__title {
+    margin-left: 12px;
+    color: var(--ifm-color-primary);
+    //color:hsl(214deg 100% 60%);
+    font-family: var(--ifm-font-family-name);
+  }
+}
+
+// 菜单字体大小(各类菜单方式)
+.navbar__link,
+.dropdown,
+.navbar__title,
+.menu {
+  font-weight: 400;
+}
+
+//md文件渲燃配置
+.markdown {
+  a {
+    transition: all 0.1s;
+    display: inline-block;
+
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  code {
+    border: 0.1rem solid transparent;
+  }
+
+  .alert {
+    border: 2px solid var(--ifm-alert-border-color);
+  }
+
+  img {
+    border-radius: 10px;    //图片的4个角为圆角
+    box-shadow: 0 0 20px rgba(59, 58, 59, 0.473);  //图像阴影
+    display: flex;
+    margin: 0 auto;
+  }
+
+
+  > h2 {
+    font-size: 1.8em;
+    border-bottom: 1px solid var(--ifm-color-primary-light);
+    margin-top: 1rem;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.4em;
+      display: inline-block;
+      background: var(--ifm-color-primary-light);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > h3 {
+    font-size: 1.6em;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.3em;
+      display: inline-block;
+      background: var(--ifm-color-primary-light);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > h4 {
+    font-size: 1.4em;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.2em;
+      display: inline-block;
+      background: var(--ifm-color-primary-light);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > h5 {
+    font-size: 1.2em;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.2em;
+      display: inline-block;
+      background: var(--ifm-color-primary-light);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > h6 {
+    font-size: 1.0em;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.2em;
+      display: inline-block;
+      background: var(--ifm-color-primary-light);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  .markdown-body a:hover::before {
+    width: 100%;
+  }
+
+
+}

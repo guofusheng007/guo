@@ -1,0 +1,10 @@
+{
+  "label": "存储",
+  "position": 15,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "存储."
+  }
+}

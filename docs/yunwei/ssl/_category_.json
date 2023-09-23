@@ -1,0 +1,10 @@
+{
+  "label": "SSL证书",
+  "position": 25,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "SSL证书"
+  }
+}

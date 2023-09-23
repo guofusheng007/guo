@@ -1,0 +1,10 @@
+{
+  "label": "HTML标记",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "HTML标记"
+  }
+}

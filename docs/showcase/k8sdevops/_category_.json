@@ -1,0 +1,11 @@
+{
+  "label": "DevOps",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "这篇文章最早发布在csdn上面，后转移到个人hexo博客，再到目前转入个人d8s博客，以后来不转了，就在d8s上安家了，能要学会满足，知足常乐，哈~。主要讲述主流devops/k8s等软件的高度集成。全流程DevOps主流架构，基于gitlab CI/CD，云原生生态主流开源软件集成，分布式存储ceph为IaaS平台业务数据存储做支撑，镜像存储采用harbor为K8S应用部署提供镜像服务，istio微服务流量治理，可视化可追踪监控prometheus/grafana为整个平台提供运维数据。",
+    "title": "DevOps全流程、K8S微服务",
+  }
+}
